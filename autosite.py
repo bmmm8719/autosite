@@ -13,7 +13,7 @@ GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
 if not GITHUB_TOKEN:
     raise ValueError("GITHUB_TOKEN environment variable not set. Run: export GITHUB_TOKEN='your_token_here'")
 
-SITE_DIR = "site"
+SITE_DIR = "."
 
 # -------------------------------
 # HELPER FUNCTION
